@@ -1,5 +1,6 @@
 <?php
 	require_once("Eventos.php");
+	header('Access-Control-Allow-Origin: *');
 	
 	@mysql_connect("localhost", "root", "") or die("erro na conexão: " . mysql_error());
 	mysql_select_db("derose"); 
