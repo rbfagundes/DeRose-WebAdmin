@@ -39,7 +39,7 @@ $(document).ready(function() {
     // url para o arquivo json.php
         url : "eventosJson.php",
     // dataType json
-        dataType : "jsonp",
+        dataType : "json",
     // função para de sucesso
         success : function(data){
         // vamos gerar um html e guardar nesta variável

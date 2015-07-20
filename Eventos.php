@@ -1,7 +1,7 @@
 <?php
 class Eventos {
-	private $id;
-	private $nome;
+	public $id;
+	public $nome;
 	
 	
 	public function setNome($nome) {
